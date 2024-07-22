@@ -1,0 +1,11 @@
+{
+  "name": "destiny-quester-server",
+  "version": "1.0.0",
+  "description": "companion app for destiny quest 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abbyjo",
+  "license": "ISC"
+}
