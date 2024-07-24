@@ -1,11 +1,21 @@
 {
   "name": "destiny-quester-server",
   "version": "1.0.0",
-  "description": "companion app for destiny quest 1",
-  "main": "index.js",
+  "description": "Companion app for destiny quest 1",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "watch": "nodemon",
+    "seed": "node config/seeds.js"
   },
   "author": "abbyjo",
-  "license": "ISC"
+  "license": "MIT License",
+  "dependencies": {
+    "express": "^4.17.2",
+    "mongoose": "^7.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
 }
